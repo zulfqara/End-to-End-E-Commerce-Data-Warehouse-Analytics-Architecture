@@ -2,6 +2,7 @@
 
 > Engineered a 3-tier Data Warehouse (Bronze/Silver/Gold) using T-SQL for an e-commerce marketplace. Transformed raw data into highly optimized models to analyze Customers, Products, and Sellers, culminating in Market Basket Analysis.
 
+https://github.com/zulfqara/End-to-End-E-Commerce-Data-Warehouse-Analytics-Architecture/blob/main/Report.png.png
 
 ## 🛠️ Tech Stack & Methodologies
 * **Database & Language:** SQL Server (T-SQL)
