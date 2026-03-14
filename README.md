@@ -4,7 +4,7 @@
 
 https://github.com/zulfqara/End-to-End-E-Commerce-Data-Warehouse-Analytics-Architecture/blob/main/Report.png.png
 
-## 🛠️ Tech Stack & Methodologies
+## Tech Stack & Methodologies
 * **Database & Language:** SQL Server (T-SQL)
 * **Data Engineering:** BULK INSERT, Medallion Architecture, Data Quality Assurance (DQA)
 * **Data Modeling:** Dimensional Modeling (Star Schema), Fact/Dimension Views
@@ -13,7 +13,7 @@ https://github.com/zulfqara/End-to-End-E-Commerce-Data-Warehouse-Analytics-Archi
 
 ---
 
-## 🏗️ Pipeline Architecture (Medallion Approach)
+## Pipeline Architecture (Medallion Approach)
 
 * **Bronze Layer (Raw):** Ingested millions of rows via BULK INSERT and conducted rigorous Data Quality Assurance (DQA) to flag nulls, duplicates, and chronological date impossibilities.
 * **Silver Layer (Cleansed):** Transformed data by enforcing business logic, resolving datatype collisions, and cleansing financial anomalies.
@@ -21,7 +21,7 @@ https://github.com/zulfqara/End-to-End-E-Commerce-Data-Warehouse-Analytics-Archi
 
 ---
 
-## 📊 Core Data Marts & Analytics
+## Core Data Marts & Analytics
 
 * **The Customer Report:** Analyzed Lifetime Spend (LTV) and Average Order Value (AOV), segmenting users into tiers and tracking churn risk via dynamic recency logic.
 * **The Product Report:** Evaluated Gross Merchandise Value (GMV) and item velocity, classifying inventory into High/Mid/Low ticket tiers and performance stages.
@@ -30,7 +30,7 @@ https://github.com/zulfqara/End-to-End-E-Commerce-Data-Warehouse-Analytics-Archi
 
 ---
 
-## 📈 Key Business Discoveries
+## Key Business Discoveries
 * **Customer Churn:** Identified a critical 52% churn rate, driven heavily by an influx of 91K one-time buyers.
 * **Seller Retention:** Revealed that 17.25% of sellers are currently 'Slipping' (1-2 months of inactivity), providing a targeted list for account recovery.
 * **Product Bottleneck:** Discovered that despite high Health & Beauty GMV, the vast majority of catalog inventory sits stagnant in the 'One-Timer' lifecycle stage.
