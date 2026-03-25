@@ -3,6 +3,7 @@ FROM'C:\Users\zulfy\Downloads\Marketing Data\CUSTOMERS.csv'
 WITH (
 		FIRSTROW = 2,
 		FIELDTERMINATOR = ','
+		ROWTERMINATOR = '\n'
 		);
 
 GO
@@ -12,6 +13,7 @@ FROM'C:\Users\zulfy\Downloads\Marketing Data\GEO_LOCATION.csv'
 WITH (
 		FIRSTROW = 2,
 		FIELDTERMINATOR = ','
+		ROWTERMINATOR = '\n'
 		);
 		
 GO
@@ -21,6 +23,7 @@ FROM'C:\Users\zulfy\Downloads\Marketing Data\ORDER_ITEMS.csv'
 WITH (
 		FIRSTROW = 2,
 		FIELDTERMINATOR = ','
+		ROWTERMINATOR = '\n'
 		);
 
 GO
@@ -30,6 +33,7 @@ FROM'C:\Users\zulfy\Downloads\Marketing Data\ORDER_PAYMENTS.csv'
 WITH (
 		FIRSTROW = 2,
 		FIELDTERMINATOR = ','
+		ROWTERMINATOR = '\n'
 		);
 		
 GO
@@ -39,6 +43,7 @@ FROM'C:\Users\zulfy\Downloads\Marketing Data\ORDER_REVIEW_RATINGS.csv'
 WITH (
 		FIRSTROW = 2,
 		FIELDTERMINATOR = ','
+		ROWTERMINATOR = '\n'
 		);
 
 GO
@@ -48,6 +53,7 @@ FROM'C:\Users\zulfy\Downloads\Marketing Data\ORDERS.csv'
 WITH (
 		FIRSTROW = 2,
 		FIELDTERMINATOR = ','
+		ROWTERMINATOR = '\n'
 		);
 
 BULK INSERT bronze.products
@@ -55,6 +61,7 @@ FROM'C:\Users\zulfy\Downloads\Marketing Data\PRODUCTS.csv'
 WITH (
 		FIRSTROW = 2,
 		FIELDTERMINATOR = ','
+		ROWTERMINATOR = '\n'
 		);
 
 GO
@@ -64,4 +71,5 @@ FROM'C:\Users\zulfy\Downloads\Marketing Data\SELLERS.csv'
 WITH (
 		FIRSTROW = 2,
 		FIELDTERMINATOR = ','
+		ROWTERMINATOR = '\n'
 		);
