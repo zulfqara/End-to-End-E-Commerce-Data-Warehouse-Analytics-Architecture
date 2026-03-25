@@ -3,10 +3,10 @@
 USE master;
 GO
 
-CREATE DATABASE Ecommmerce Dataset;
+CREATE DATABASE EcommmerceDataset;
 GO
 
-USE Ecommmerce Dataset;
+USE EcommmerceDataset;
 GO
 
 -- Creating Schemas
